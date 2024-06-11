@@ -1,0 +1,43 @@
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(45deg, rgb(5, 0, 4), rgb(134, 24, 236));
+    }
+    
+    form {
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 10);
+        position: absolute;
+        top: 10%;
+        left: 40%;
+        transition: translate(-50%, -50%);
+        padding: 80px;
+        color: #fff;
+    }
+    
+    input {
+        padding: 15px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+    
+    button {
+        background-color: dodgerblue;
+        border: none;
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 15px;
+    }
+    
+    button:hover {
+        background-color: deepskyblue;
+        cursor: pointer;
+    }
+    
+    input:hover {
+        background-color: #eeeeeee8;
+    }
